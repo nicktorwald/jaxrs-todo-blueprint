@@ -7,7 +7,7 @@ import org.nicktorwald.todo.config.Application;
 
 public class Starter {
 
-    public static final String BASE_URI = "http://localhost:8181/api/";
+    public static final String BASE_URI = "http://0.0.0.0:8181/api/";
 
     public static void main(String[] args) {
         HttpServer serverInstance = startServer();

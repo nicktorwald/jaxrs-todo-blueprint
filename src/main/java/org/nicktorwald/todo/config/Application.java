@@ -34,11 +34,7 @@ public class Application extends ResourceConfig {
         register(new AbstractBinder() {
             @Override
             protected void configure() {
-//                bind("store")
-//                        .to(String.class)
-//                        .qualifiedBy(MongoUrl.Factory.get());
-                
-                bind("192.168.56.1")
+                bind("store")
                         .to(String.class)
                         .named(NamedConstants.MONGO_URL);
                 
