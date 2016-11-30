@@ -25,7 +25,7 @@ public class ChangeTaskCommand {
     
     public static class Payload {
         
-        @NotNull
+        @NotNull(message = "{validation.task.emptyTitle}")
         private String title;
 
         public String getTitle() {
